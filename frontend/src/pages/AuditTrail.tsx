@@ -236,7 +236,7 @@ export const AuditTrail: React.FC = () => {
                       <td className="py-3.5 px-4 font-mono text-[11px] text-[#526D61] whitespace-nowrap">
                         <div className="flex items-center space-x-1.5">
                           <Clock className="h-3 w-3 shrink-0" />
-                          <span>{e.timestamp ? new Date(e.timestamp).toLocaleString('en-IN', { hour12: false }) : '—'}</span>
+                          <span>{e.timestamp ? new Date(e.timestamp).toLocaleString('en-IN', { hour12: false }) : ' - '}</span>
                         </div>
                       </td>
                       <td className="py-3.5 px-4 whitespace-nowrap">
@@ -260,7 +260,7 @@ export const AuditTrail: React.FC = () => {
                         {e.entity_id.length > 24 ? e.entity_id.slice(0, 24) + '…' : e.entity_id}
                       </td>
                       <td className="py-3.5 px-4 max-w-xs text-[#526D61]">
-                        <span className="truncate block max-w-[200px]">{e.reason || '—'}</span>
+                        <span className="truncate block max-w-[200px]">{e.reason || ' - '}</span>
                       </td>
                       <td className="py-3.5 px-4 text-right whitespace-nowrap">
                         <button className="px-3 py-1 rounded-full bg-[#F4FBF7] hover:bg-[#0B4D3C] hover:text-white border border-[#D5E6DC] text-[#0B4D3C] text-[11px] font-bold transition-all">
@@ -277,7 +277,7 @@ export const AuditTrail: React.FC = () => {
         {filtered.length > 0 && (
           <div className="px-6 py-3 border-t border-[#F0F7F2] text-[10px] font-mono text-[#526D61] flex items-center justify-between">
             <span>Showing {filtered.length} of {events.length} events</span>
-            <span className="text-emerald-700 font-bold">✓ ALCOA+ Compliant — SHA-256 Ledger Verified</span>
+            <span className="text-emerald-700 font-bold">✓ ALCOA+ Compliant - SHA-256 Ledger Verified</span>
           </div>
         )}
       </div>
@@ -317,7 +317,7 @@ export const AuditTrail: React.FC = () => {
                   <pre className="whitespace-pre-wrap text-[11px] leading-relaxed">
                     {selectedEvent.before_state_json
                       ? JSON.stringify(JSON.parse(selectedEvent.before_state_json), null, 2)
-                      : 'null — Initial record creation (no previous state)'}
+                      : 'null - Initial record creation (no previous state)'}
                   </pre>
                 </div>
               </div>
@@ -327,7 +327,7 @@ export const AuditTrail: React.FC = () => {
                   <pre className="whitespace-pre-wrap text-[11px] leading-relaxed">
                     {selectedEvent.after_state_json
                       ? JSON.stringify(JSON.parse(selectedEvent.after_state_json), null, 2)
-                      : 'null — Record deleted'}
+                      : 'null - Record deleted'}
                   </pre>
                 </div>
               </div>
@@ -335,7 +335,7 @@ export const AuditTrail: React.FC = () => {
 
             <div className="p-3 bg-[#F4FBF7] rounded-2xl border border-[#D5E6DC] text-[11px] font-mono text-[#526D61]">
               <span className="text-[#0B4D3C] font-bold">Timestamp:</span>{' '}
-              {selectedEvent.timestamp ? new Date(selectedEvent.timestamp).toLocaleString('en-IN', { hour12: false }) : '—'} IST
+              {selectedEvent.timestamp ? new Date(selectedEvent.timestamp).toLocaleString('en-IN', { hour12: false }) : ' - '} IST
             </div>
           </div>
         </div>

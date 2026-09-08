@@ -1,4 +1,4 @@
-﻿# AYUVISTA — Implementation Status Tracker
+﻿# AYUVISTA - Implementation Status Tracker
 
 Last Updated: Phase 1 through Phase 9 Complete
 

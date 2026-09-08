@@ -9,7 +9,7 @@ export const AppLayout: React.FC = () => {
 
   return (
     <div className="min-h-screen bg-[#F4FBF7] text-[#14231E] flex flex-col font-sans selection:bg-[#0B4D3C] selection:text-white w-full max-w-full overflow-x-hidden">
-      {/* Top Header — Fixed & elevated */}
+      {/* Top Header - Fixed & elevated */}
       <Header onToggleMobileMenu={() => setMobileMenuOpen(!mobileMenuOpen)} />
 
       {/* Main App Canvas with Fixed Sidebar on Left */}

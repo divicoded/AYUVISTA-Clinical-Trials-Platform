@@ -1,4 +1,4 @@
-﻿# AYUVISTA — Product Architecture Specification
+﻿# AYUVISTA - Product Architecture Specification
 
 ## 1. System Overview & Mission
 **AYUVISTA** is a unified clinical research, clinical trial management (CTMS), and pharmacovigilance (PV) platform purpose-built for the **All India Institute of Ayurveda (AIIA)**, an autonomous apex institute under the Ministry of Ayush, Government of India.
@@ -11,7 +11,7 @@ AIIA conducts and coordinates extensive clinical studies, classical formulations
 
 ## 2. Core Architectural Principles
 1. **Modular Monolith**: Clean separation of domain modules (Studies, Sites, Participants, Visits, Monitoring, Deviations, Data Quality, Ethics, CTRI, PV/Safety, Interoperability, Audit) within a unified backend and unified SPA frontend. Avoids premature microservice distributed-system complexity while enforcing strict domain boundaries.
-2. **Clinical Information Density**: Linear / Bloomberg-grade high-density, calm, and purposeful user interface. Designed for clinical research coordinators, principal investigators, and medical reviewers—compact data grids, clear status chips, drill-down drawer/modal workflows, keyboard navigable, zero frivolous gamification or generic dashboard templates.
+2. **Clinical Information Density**: Linear / Bloomberg-grade high-density, calm, and purposeful user interface. Designed for clinical research coordinators, principal investigators, and medical reviewers - compact data grids, clear status chips, drill-down drawer/modal workflows, keyboard navigable, zero frivolous gamification or generic dashboard templates.
 3. **Defense-in-Depth Security & Role-Based Access (RBAC)**: Backend-enforced authorization guards at router and service level, JWT sessions, password hashing (bcrypt), input sanitization (Pydantic v2), and append-only audit logging.
 4. **ALCOA+ Data Integrity & DPDP Alignment**: Attributable, Legible, Contemporaneous, Original, Accurate + Complete, Consistent, Enduring, Available. Strict synthetic de-identification (`SYN-Pxxxxx`) preserving patient privacy principles under India's Digital Personal Data Protection (DPDP) Act.
 5. **Standardized Interoperability & Formats**:

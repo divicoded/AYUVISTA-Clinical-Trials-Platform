@@ -20,7 +20,7 @@ export const Reports: React.FC = () => {
       code: 'DM',
       name: 'Demographics (DM.csv)',
       count: '105 Subjects',
-      desc: 'Baseline subject-level demographics — one record per subject',
+      desc: 'Baseline subject-level demographics - one record per subject',
       bg: 'bg-[#D7F5E8]',
       border: 'border-[#A7F3D0]',
       text: 'text-[#065F46]',
@@ -40,7 +40,7 @@ export const Reports: React.FC = () => {
       code: 'DS',
       name: 'Disposition (DS.csv)',
       count: '105 Rows',
-      desc: 'Subject disposition events — completed, withdrawn, screen failed',
+      desc: 'Subject disposition events - completed, withdrawn, screen failed',
       bg: 'bg-[#EDE9FE]',
       border: 'border-[#DDD6FE]',
       text: 'text-[#6D28D9]',
@@ -122,9 +122,9 @@ export const Reports: React.FC = () => {
             onChange={(e) => setSelectedStudy(e.target.value)}
             className="bg-[#F4FBF7] border border-[#D5E6DC] text-[#0B4D3C] font-mono font-bold rounded-full px-4 py-2 focus:outline-none focus:border-[#0B4D3C]"
           >
-            <option value="AYU-003">AYU-003 — Hero Trial (Guduchi-Pippali, Post-Viral Fatigue)</option>
-            <option value="AYU-001">AYU-001 — Ashwagandha Adaptogen RCT</option>
-            <option value="AYU-002">AYU-002 — Curcuma-Shallaki Joint Inflammation</option>
+            <option value="AYU-003">AYU-003 - Hero Trial (Guduchi-Pippali, Post-Viral Fatigue)</option>
+            <option value="AYU-001">AYU-001 - Ashwagandha Adaptogen RCT</option>
+            <option value="AYU-002">AYU-002 - Curcuma-Shallaki Joint Inflammation</option>
           </select>
         </div>
         <div className="flex items-center space-x-3 text-xs font-mono">
@@ -182,7 +182,7 @@ export const Reports: React.FC = () => {
             <div>
               <div className="flex items-center space-x-2">
                 <Database className="h-5 w-5 text-[#0B4D3C]" />
-                <h3 className="text-base font-bold text-[#14231E]">{activeDomain.name} — Dataset Preview</h3>
+                <h3 className="text-base font-bold text-[#14231E]">{activeDomain.name} - Dataset Preview</h3>
               </div>
               <p className="text-xs text-[#526D61] mt-0.5">{activeDomain.desc}</p>
             </div>

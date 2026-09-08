@@ -1,4 +1,4 @@
-# AYUVISTA — Official SIH PowerPoint Pitch Deck & Infographics Blueprint
+# AYUVISTA - Official SIH PowerPoint Pitch Deck & Infographics Blueprint
 ## Designed Strictly According to the Smart India Hackathon (SIH) Official Presentation Template
 
 > **How to Use This Blueprint**:
@@ -45,7 +45,7 @@
 
 ### Exact Content to Put on Slide
 * **Primary Branding**:
-  * **AYUVISTA** — Clinical Research & Pharmacovigilance Command Center
+  * **AYUVISTA** - Clinical Research & Pharmacovigilance Command Center
 * **4 Compliance Badges (Pill Tags)**:
   * `GCP-ASU Compliant` (Good Clinical Practice for ASU Drugs)
   * `CDISC SDTM v3.3 & ADaM` (Global Drug Submission Standard)
@@ -55,7 +55,7 @@
   * Developing an enterprise, cloud-native CTMS & Pharmacovigilance surveillance ecosystem for the All India Institute of Ayurveda (AIIA) and NPvCC network.
 
 ### Speaker Voiceover (15 Seconds)
-> *"Respected Judges, we present **AYUVISTA** — India's first GCP-compliant, CDISC-standardized Clinical Trial Management System and Pharmacovigilance Command Center. Built specifically for the All India Institute of Ayurveda and the National Pharmacovigilance Coordination Centre, AYUVISTA transforms traditional Ayurvedic clinical trials into globally accepted, regulatory-grade scientific evidence."*
+> *"Respected Judges, we present **AYUVISTA** - India's first GCP-compliant, CDISC-standardized Clinical Trial Management System and Pharmacovigilance Command Center. Built specifically for the All India Institute of Ayurveda and the National Pharmacovigilance Coordination Centre, AYUVISTA transforms traditional Ayurvedic clinical trials into globally accepted, regulatory-grade scientific evidence."*
 
 ---
 
@@ -88,7 +88,7 @@
 * **The AYUVISTA Solution**:
   * A unified, multi-tenant digital command center integrating trial governance, multi-center CRA site surveillance, expedited safety reporting, and automated international standard data packaging.
 * **4 Core Operational Pillars**:
-  1. **Executive Portfolio Governance**: Real-time S-curve recruitment tracking and composite 0–100 risk scoring across 25 active clinical protocols.
+  1. **Executive Portfolio Governance**: Real-time S-curve recruitment tracking and composite 0-100 risk scoring across 25 active clinical protocols.
   2. **National Pharmacovigilance Watchtower (NPvCC)**: Statutory **24-hour Serious Adverse Event (SAE) countdown clock**, 8-stage sequential gated review, and MedDRA terminology coding.
   3. **Multi-Center Site Oversight**: Comprehensive CRA monitoring visit scheduling, Source Data Verification (SDV) status, and inline Corrective & Preventive Action (CAPA) tracking across 40 hospital sites.
   4. **International Data Standardization**: Direct export of CDISC SDTM (`DM`, `AE`, `DS`, `SV`), ADaM (`ADSL`), Define-XML 2.0, and HL7 FHIR R4 payloads.
@@ -99,7 +99,7 @@
 * **Pillars**: Cards with rounded corners (`rounded-2xl`), shadow elevation.
 
 ### Speaker Voiceover (20 Seconds)
-> *"Today, 40+ trial sites in India track patients on spreadsheets. When a Serious Adverse Event occurs, Indian law gives exactly 24 hours to report it — spreadsheet workflows routinely miss this legal deadline. AYUVISTA solves this with an active 24-hour countdown clock, an automated portfolio risk engine, and built-in CDISC exporters that make Ayurvedic trial results instantly audit-ready for global regulators."*
+> *"Today, 40+ trial sites in India track patients on spreadsheets. When a Serious Adverse Event occurs, Indian law gives exactly 24 hours to report it - spreadsheet workflows routinely miss this legal deadline. AYUVISTA solves this with an active 24-hour countdown clock, an automated portfolio risk engine, and built-in CDISC exporters that make Ayurvedic trial results instantly audit-ready for global regulators."*
 
 ---
 
@@ -242,7 +242,7 @@
 * Risk cards: Border `#E2EEE7`, Background white, Badge `Mitigation Strategy`.
 
 ### Speaker Voiceover (20 Seconds)
-> *"The impact of AYUVISTA is measurable: it cuts query resolution times by 65%, guarantees 100% adherence to the legal 24-hour safety deadline, and prevents data tampering through cryptographic audit logging. We have identified key operational risks — such as clinical investigator adoption and data privacy — and engineered mitigations directly into the software through 1-click workflows and synthetic tokenization."*
+> *"The impact of AYUVISTA is measurable: it cuts query resolution times by 65%, guarantees 100% adherence to the legal 24-hour safety deadline, and prevents data tampering through cryptographic audit logging. We have identified key operational risks - such as clinical investigator adoption and data privacy - and engineered mitigations directly into the software through 1-click workflows and synthetic tokenization."*
 
 ---
 
@@ -304,7 +304,7 @@
 |  * 10 Core Modules Completed         * AIIA Hospital Internal Pilot    * Scale to NIA Jaipur &     |
 |  * 25 Studies, 40 Sites Seeded       * Integration with Hospital HIS    IPGTRA Jamnagar Apex Inst. |
 |  * Live 24h Clock & CDISC Ready      * Real-World Investigator Testing * Connect All 5 NPvCC Hubs  |
-|  (CURRENT STATE — 100% VERIFIED)     (MONTHS 1 - 3)                    (MONTHS 4 - 6)              |
+|  (CURRENT STATE - 100% VERIFIED)     (MONTHS 1 - 3)                    (MONTHS 4 - 6)              |
 +----------------------------------------------------------------------------------------------------+
 |  MEET THE TEAM                                                                                     |
 |  +---------------------+  +----------------------+  +---------------------+  +-------------------+ |
@@ -320,9 +320,9 @@
 
 ### Exact Content to Put on Slide
 * **3-Phase Execution Roadmap**:
-  * **Phase 1 (Immediate — Complete MVP)**: 10 core clinical modules, 25 studies, 40 sites, 1,520 participants, active 24h safety clock, CDISC SDTM/Define-XML exporters.
-  * **Phase 2 (Months 1–3 — AIIA Campus Pilot)**: On-premise deployment on AIIA's private servers; live bidirectional integration with Hospital Information System (HIS) OPD/IPD wards.
-  * **Phase 3 (Months 4–6 — National Ayush Grid)**: Scale across National Institute of Ayurveda (NIA Jaipur), IPGTRA Jamnagar, and all 5 nationwide NPvCC regional centers.
+  * **Phase 1 (Immediate - Complete MVP)**: 10 core clinical modules, 25 studies, 40 sites, 1,520 participants, active 24h safety clock, CDISC SDTM/Define-XML exporters.
+  * **Phase 2 (Months 1-3 - AIIA Campus Pilot)**: On-premise deployment on AIIA's private servers; live bidirectional integration with Hospital Information System (HIS) OPD/IPD wards.
+  * **Phase 3 (Months 4-6 - National Ayush Grid)**: Scale across National Institute of Ayurveda (NIA Jaipur), IPGTRA Jamnagar, and all 5 nationwide NPvCC regional centers.
 * **National Vision**:
   * Elevates traditional Indian medicine to global scientific parity, providing the auditable clinical proof required to validate Ayurvedic formulations worldwide.
 * **Call to Action**:
@@ -390,7 +390,7 @@
 #### Section 1: Statutory Indian Regulations & Government Mandates
 * **New Drugs and Clinical Trials (NDCT) Rules, 2019**
   * *Central Drugs Standard Control Organization (CDSCO), Ministry of Health & Family Welfare*
-  * **Key Mandate**: Chapter VI, Rule 22 — 24-hour statutory notification window for Serious Adverse Events (SAEs) to the Central Licensing Authority and Ethics Committee.
+  * **Key Mandate**: Chapter VI, Rule 22 - 24-hour statutory notification window for Serious Adverse Events (SAEs) to the Central Licensing Authority and Ethics Committee.
   * Official Reference: [https://cdsco.gov.in](https://cdsco.gov.in/opencms/opencms/en/Clinical-Trials/New-Drugs-and-Clinical-Trials-Rules-2019/)
 * **Good Clinical Practice for ASU Drugs (GCP-ASU Guidelines)**
   * *Ministry of Ayush, Government of India*

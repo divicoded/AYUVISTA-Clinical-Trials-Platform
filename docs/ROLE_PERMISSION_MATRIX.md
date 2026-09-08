@@ -1,4 +1,4 @@
-﻿# AYUVISTA — Role-Based Access Control (RBAC) Matrix
+﻿# AYUVISTA - Role-Based Access Control (RBAC) Matrix
 
 ## 1. System Roles Definition
 AYUVISTA strictly enforces server-side role authorization at the FastAPI dependency level (`Depends(require_role(...))`) in addition to UI menu visibility and read/write guards.

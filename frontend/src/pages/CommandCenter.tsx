@@ -440,7 +440,7 @@ export const CommandCenter: React.FC = () => {
               <Activity className="h-4 w-4 text-[#D97706]" />
               <h3 className="text-base font-bold text-[#14231E]">Portfolio Risk Index Heatmap</h3>
             </div>
-            <p className="text-xs text-[#526D61]">Deterministic composite risk evaluation across all active trials (0–100)</p>
+            <p className="text-xs text-[#526D61]">Deterministic composite risk evaluation across all active trials (0-100)</p>
           </div>
           <div className="flex items-center space-x-3 text-[11px] font-medium">
             <span className="flex items-center space-x-1.5"><span className="h-2.5 w-2.5 rounded-full bg-[#10B981] inline-block" /><span className="text-[#526D61]">Low (&lt;40)</span></span>
@@ -496,7 +496,7 @@ export const CommandCenter: React.FC = () => {
           { label: 'Healthy Protocols', value: healthMatrix.filter(h => h.risk_score <= 40).length, color: 'text-emerald-700', bg: 'bg-[#D7F5E8]', border: 'border-[#B6EAD2]', icon: CheckCircle2 },
           { label: 'Watch Protocols', value: healthMatrix.filter(h => h.risk_score > 40 && h.risk_score <= 60).length, color: 'text-amber-800', bg: 'bg-[#FEF3C7]', border: 'border-[#FDE68A]', icon: AlertTriangle },
           { label: 'At Risk (>60)', value: healthMatrix.filter(h => h.risk_score > 60).length, color: 'text-rose-700', bg: 'bg-[#FCE7F3]', border: 'border-[#FBCFE8]', icon: AlertOctagon },
-          { label: 'Portfolio Avg Risk', value: healthMatrix.length ? (healthMatrix.reduce((s, h) => s + h.risk_score, 0) / healthMatrix.length).toFixed(1) : '—', color: 'text-[#0B4D3C]', bg: 'bg-[#EBF7F0]', border: 'border-[#D1F2E2]', icon: TrendingUp },
+          { label: 'Portfolio Avg Risk', value: healthMatrix.length ? (healthMatrix.reduce((s, h) => s + h.risk_score, 0) / healthMatrix.length).toFixed(1) : ' - ', color: 'text-[#0B4D3C]', bg: 'bg-[#EBF7F0]', border: 'border-[#D1F2E2]', icon: TrendingUp },
         ].map((kpi) => (
           <div key={kpi.label} className={`p-5 ${kpi.bg} border ${kpi.border} rounded-[2rem] flex items-center space-x-3.5 shadow-sm`}>
             <kpi.icon className={`h-8 w-8 ${kpi.color} shrink-0`} />

@@ -1,4 +1,4 @@
-﻿# AYUVISTA — Smart India Hackathon (SIH) Master Pitch Deck & Presentation Guide
+﻿# AYUVISTA - Smart India Hackathon (SIH) Master Pitch Deck & Presentation Guide
 
 > **Official Pitch Script & Slide-by-Slide Blueprint**  
 > **Team Track**: Healthcare & Biomedical Devices / Ayush  
@@ -9,14 +9,14 @@
 ## 1. Executive Summary & Pitch Hook
 
 * **The 15-Second Opening Hook**:
-  > *"Respected Judges, the All India Institute of Ayurveda is leading a global renaissance in traditional medicine. Yet today, millions of rupees worth of Ayurvedic clinical trials are tracked on fragmented spreadsheets, risking missed 24-hour Serious Adverse Event reporting deadlines, delayed CTRI filings, and international regulatory rejection. We present **AYUVISTA** — a unified, cloud-native Clinical Trial Management System and Pharmacovigilance command center built for Good Clinical Practice (GCP-ASU), international CDISC standards, HL7 FHIR interoperability, and India's DPDP Act 2023."*
+  > *"Respected Judges, the All India Institute of Ayurveda is leading a global renaissance in traditional medicine. Yet today, millions of rupees worth of Ayurvedic clinical trials are tracked on fragmented spreadsheets, risking missed 24-hour Serious Adverse Event reporting deadlines, delayed CTRI filings, and international regulatory rejection. We present **AYUVISTA** - a unified, cloud-native Clinical Trial Management System and Pharmacovigilance command center built for Good Clinical Practice (GCP-ASU), international CDISC standards, HL7 FHIR interoperability, and India's DPDP Act 2023."*
 
 ---
 
 ## 2. 7-Slide Hackathon Presentation Deck Structure
 
 ### Slide 1: Title & The Vision
-* **Title**: AYUVISTA — Unified Clinical Research Operations & Pharmacovigilance Platform
+* **Title**: AYUVISTA - Unified Clinical Research Operations & Pharmacovigilance Platform
 * **Tagline**: Bridging Classical Ayurveda with Global Regulatory Science (GCP-ASU • CTRI • CDISC • HL7 FHIR • DPDP 2023)
 * **Client / Anchor**: All India Institute of Ayurveda (AIIA) & National Pharmacovigilance Coordination Centre (NPvCC)
 * **Visual**: Clean mockups of the Material 3 Expressive Command Center and the Pharmacovigilance 24h Clock.
@@ -32,9 +32,9 @@
 
 ---
 
-### Slide 3: Our Solution — AYUVISTA Architecture
+### Slide 3: Our Solution - AYUVISTA Architecture
 * **The Unified CTMS & NPvCC Ecosystem**:
-  * **Real-Time Portfolio Command Center**: Visual S-curve trajectory and deterministic 0–100 composite risk scoring.
+  * **Real-Time Portfolio Command Center**: Visual S-curve trajectory and deterministic 0-100 composite risk scoring.
   * **Expedited Safety Surveillance (NPvCC)**: Active 24-hour countdown clock, 8-stage PV workflow, synthetic MedDRA terminology coding, and disproportionality signal detection.
   * **Global Standards by Design**: One-click generation of CDISC SDTM (`DM`, `AE`, `DS`, `SV`), ADaM (`ADSL`), Define-XML 2.0, and HL7 FHIR R4 JSON resources.
   * **Forensic ALCOA+ Audit Ledger**: Contemporaneous, immutable event logging capturing actor, timestamp, and JSON before/after state diffs.
@@ -74,9 +74,9 @@
 ---
 
 ### Slide 7: Roadmap, Impact & National Deployment Plan
-* **Milestone 1 (Hackathon MVP — Complete)**: Full 9-phase operational CTMS, 25 studies, 40 sites, 1520 participants, live 24h clock, CDISC & FHIR exporters.
-* **Milestone 2 (AIIA Campus Pilot — Months 1–3)**: Deploy on AIIA's internal private cloud; integrate with hospital Hospital Information System (HIS).
-* **Milestone 3 (National Ayush Grid Expansion — Months 4–6)**: Scale to National Institute of Ayurveda (NIA Jaipur), IPGTRA Jamnagar, and all 5 nationwide NPvCC regional centers.
+* **Milestone 1 (Hackathon MVP - Complete)**: Full 9-phase operational CTMS, 25 studies, 40 sites, 1520 participants, live 24h clock, CDISC & FHIR exporters.
+* **Milestone 2 (AIIA Campus Pilot - Months 1-3)**: Deploy on AIIA's internal private cloud; integrate with hospital Hospital Information System (HIS).
+* **Milestone 3 (National Ayush Grid Expansion - Months 4-6)**: Scale to National Institute of Ayurveda (NIA Jaipur), IPGTRA Jamnagar, and all 5 nationwide NPvCC regional centers.
 * **National Impact**: Accelerates Ayurvedic clinical research approval cycles by **65%**, ensures **100% statutory safety compliance**, and delivers world-class scientific validation for Indian traditional medicine.
 
 ---

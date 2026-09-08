@@ -1,4 +1,4 @@
-﻿# AYUVISTA — Primary Demonstration Scenario & Narrative Script
+﻿# AYUVISTA - Primary Demonstration Scenario & Narrative Script
 
 ## 1. Scenario Overview: Hero Study "AYU-003"
 The demonstration is anchored on **AYU-003**:
@@ -18,14 +18,14 @@ The demonstration is anchored on **AYU-003**:
 - **Action**: Select Quick-Login preset or enter `pi@aiia.demo` / `Nexus@AIIA2026`.
 - **System Response**: Authenticates with JWT, identifies role `PRINCIPAL_INVESTIGATOR`, redirects to Command Center.
 
-### Step 2: Command Center — Portfolio Health & Risk Matrix
+### Step 2: Command Center - Portfolio Health & Risk Matrix
 - **Observe**:
   - Portfolio Metrics: Active Studies (25), Total Enrolled (1,500+), Active Sites (40), Overdue Tasks.
   - **Study Health Matrix**: Observe `AYU-003` highlighted with a bold Amber/Red status (**AT RISK**, Risk Score: **78/100**).
   - Breakdown shows flags in: Recruitment (Lag), Monitoring (Overdue), Data Quality (Open queries), Regulatory (Due soon).
 - **Action**: Click on study row `AYU-003` to enter its Study Workspace.
 
-### Step 3: Study Workspace — Root Cause Analysis
+### Step 3: Study Workspace - Root Cause Analysis
 - **Overview Tab**:
   - Inspect S-curve recruitment chart: Planned vs Actual curve widening.
   - Lifecycle tracker at `TREATMENT / INTERVENTION` stage.
@@ -35,7 +35,7 @@ The demonstration is anchored on **AYU-003**:
 - **Site Detail**:
   - Note 14 open queries, 1 overdue CRA monitoring visit, and 2 protocol deviations (unapproved concomitant medication).
 
-### Step 4: Safety / Pharmacovigilance Workspace — SAE Expedited Clock
+### Step 4: Safety / Pharmacovigilance Workspace - SAE Expedited Clock
 - **Action**: Navigate to `Safety / Pharmacovigilance` module.
 - **Observe**:
   - Active SAE clock: Case `PV-2026-0031` showing reporting countdown timer.
@@ -50,7 +50,7 @@ The demonstration is anchored on **AYU-003**:
 ### Step 5: Ethics & Regulatory Milestones
 - **Action**: Navigate to `Ethics & Regulatory`.
 - **Observe**:
-  - CTRI Sandbox connector status: `CTRI/2025/11/075432` — Next required update due in 9 days.
+  - CTRI Sandbox connector status: `CTRI/2025/11/075432` - Next required update due in 9 days.
   - Click "Simulate CTRI Milestone Validation" (Clearly labeled Sandbox Adapter).
   - Review milestone checklist and evidence documents.
 

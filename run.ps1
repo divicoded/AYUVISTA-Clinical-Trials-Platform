@@ -1,6 +1,6 @@
-# AIIA NEXUS — Prototype Startup Script
+# AYUVISTA - Prototype Startup Script
 Write-Host "=======================================================" -ForegroundColor Cyan
-Write-Host "   AIIA NEXUS — Clinical Research & Pharmacovigilance   " -ForegroundColor White
+Write-Host "   AYUVISTA - Clinical Research & Pharmacovigilance    " -ForegroundColor White
 Write-Host "=======================================================" -ForegroundColor Cyan
 
 $pythonExe = "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe"

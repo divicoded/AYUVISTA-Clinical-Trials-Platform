@@ -4,12 +4,23 @@
 ### All India Institute of Ayurveda (AIIA) • National Pharmacovigilance Coordination Centre (NPvCC) • Ministry of Ayush, Government of India
 
 [![Smart India Hackathon](https://img.shields.io/badge/SIH-2026%20Edition-FF6F00?style=for-the-badge&logo=target)](https://sih.gov.in)
+[![Vercel Frontend](https://img.shields.io/badge/Vercel-Production%20Live-black?style=for-the-badge&logo=vercel)](https://ayuvista-ctms.vercel.app)
+[![Render Backend](https://img.shields.io/badge/Render-FastAPI%20Live-46E3B7?style=for-the-badge&logo=render)](https://ayuvista-backend.onrender.com/docs)
 [![Docker Ready](https://img.shields.io/badge/Docker-Compose%20Ready-2496ED?style=for-the-badge&logo=docker)](./docker-compose.yml)
 [![GCP Compliant](https://img.shields.io/badge/GCP--ASU-Compliant-0B4D3C?style=for-the-badge)](https://ayush.gov.in)
 [![CDISC Standards](https://img.shields.io/badge/CDISC-SDTM%20v3.3%20%7C%20ADaM-0284C7?style=for-the-badge)](https://cdisc.org)
 [![HL7 FHIR](https://img.shields.io/badge/HL7-FHIR%20R4-D97706?style=for-the-badge)](https://hl7.org/fhir)
 [![DPDP Act 2023](https://img.shields.io/badge/DPDP%202023-Synthetic%20Tokenized-16A34A?style=for-the-badge)](https://meity.gov.in)
-[![Design Language](https://img.shields.io/badge/Design-Material%203%20Expressive-E11D48?style=for-the-badge)](https://m3.material.io)
+
+---
+
+## 🌐 Live Cloud Deployments
+
+| Component | Production URL | Documentation & Status |
+| :--- | :--- | :--- |
+| **Frontend Web App (Vercel)** | **[https://ayuvista-ctms.vercel.app](https://ayuvista-ctms.vercel.app)** | Complete Material 3 UI, mobile-responsive, 1-click role switcher |
+| **Backend API (Render)** | **[https://ayuvista-backend.onrender.com](https://ayuvista-backend.onrender.com)** | Interactive Swagger UI: [https://ayuvista-backend.onrender.com/docs](https://ayuvista-backend.onrender.com/docs) |
+| **GitHub Repository** | **[github.com/divicoded/AYUVISTA-Clinical-Trials-Platform](https://github.com/divicoded/AYUVISTA-Clinical-Trials-Platform)** | Clean public repository, verified tests, docker-compose ready |
 
 ---
 
@@ -17,9 +28,10 @@
 
 | Document | Description |
 | :--- | :--- |
-| 📊 **[SIH Master PPT & Pitch Deck Guide](./docs/SIH_PRESENTATION_DECK_PPT_MATERIAL.md)** | **Complete slide-by-slide presentation blueprint**: bullet points, speaker script, slide layout, timing, and top 10 judge Q&A defense. |
-| 🎓 **[SIH Beginner's Presentation Manual](./docs/SIH_BEGINNER_PRESENTATION_MANUAL.md)** | **Zero-to-Hero guide**: Plain-English project story, jargon buster, 3-minute live demo playbook, role breakdown, and scoring cheat sheet. |
-| 🚀 **[GitHub & Docker Deployment Guide](./docs/GITHUB_AND_DOCKER_DEPLOYMENT_GUIDE.md)** | Step-by-step commands to push code to GitHub, test with Docker Compose, and prepare for evaluation. |
+| 📋 **[Official SIH 8-Slide PPT & Infographics Blueprint](./docs/SIH_OFFICIAL_TEMPLATE_PPT_INFOGRAPHICS.md)** | **Strict official SIH presentation template**: visual card layouts, metric counters, speaker scripts, judge Q&A defense, and Slide 8 Research & References. |
+| 📊 **[SIH Master PPT & Pitch Deck Guide](./docs/SIH_PRESENTATION_DECK_PPT_MATERIAL.md)** | Complete 11-slide presentation deck with comprehensive data points and research citations. |
+| 🎓 **[SIH Beginner's Presentation Manual](./docs/SIH_BEGINNER_PRESENTATION_MANUAL.md)** | Plain-English project narrative, 3-minute live demo sequence, jargon buster, and role breakdown. |
+| 🚀 **[GitHub, Docker & Cloud Deployment Guide](./docs/GITHUB_AND_DOCKER_DEPLOYMENT_GUIDE.md)** | Step-by-step commands to push code, test with Docker Compose, and configure Vercel/Render. |
 | 🌟 **[Complete Beginner's Handbook](./docs/BEGINNERS_HANDBOOK.md)** | Comprehensive module-by-module documentation explaining every screen, API, and database entity. |
 | 🏛️ **[Master System Architecture](./docs/PRODUCT_ARCHITECTURE.md)** | Full technical design specifications, RBAC matrix, and compliance architecture. |
 | 🔌 **[Interactive API Design](./docs/API_DESIGN.md)** | REST endpoint catalog with request/response schemas. |
@@ -28,14 +40,14 @@
 
 ---
 
-## ⚡ Quick Start: How to Run the Platform
+## ⚡ Quick Start: How to Run the Platform Locally
 
 ### Option 1: Run with Docker (Recommended for Evaluators)
 ```powershell
 docker compose up --build -d
 ```
-* **Frontend SPA**: `http://localhost:5173` (or `http://localhost`)
-* **Backend API & Swagger Docs**: `http://localhost:8000/docs`
+* Frontend SPA: `http://localhost:5173` (or `http://localhost`)
+* Backend API & Swagger Docs: `http://localhost:8000/docs`
 
 ---
 
@@ -49,7 +61,7 @@ d:\Project\AIIA\run.ps1
 
 ### Option 3: Manual Startup
 
-**Terminal 1 — FastAPI Backend**:
+**Terminal 1 - FastAPI Backend**:
 ```powershell
 cd d:\Project\AIIA\backend
 & "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
@@ -57,7 +69,7 @@ cd d:\Project\AIIA\backend
 * Backend API: `http://localhost:8000`
 * Interactive Swagger Docs: `http://localhost:8000/docs`
 
-**Terminal 2 — React Frontend**:
+**Terminal 2 - React Frontend**:
 ```powershell
 cd d:\Project\AIIA\frontend
 npm.cmd run dev

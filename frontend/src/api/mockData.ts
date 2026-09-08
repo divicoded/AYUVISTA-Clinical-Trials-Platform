@@ -1,4 +1,4 @@
-// AYUVISTA — Standalone Client-Side Mock Fallback Engine
+// AYUVISTA - Standalone Client-Side Mock Fallback Engine
 // Provides high-fidelity, deterministic synthetic clinical trial data
 // Guarantees zero downtime and seamless 100% operation on Vercel / static hosting.
 

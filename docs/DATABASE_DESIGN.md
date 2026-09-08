@@ -1,4 +1,4 @@
-﻿# AYUVISTA — Database Design & Schema Specification
+﻿# AYUVISTA - Database Design & Schema Specification
 
 ## 1. Relational Model Overview
 The persistence layer is modeled using SQLAlchemy 2.0. It supports SQLite (default for development/portable demonstration) and PostgreSQL (for production/multi-tenant scaling).
@@ -42,7 +42,7 @@ All models include standard audit columns: `created_at`, `updated_at`, `created_
   - `therapeutic_area`: `String(100)` (e.g., `Metabolic Disorders`, `Immunology`, `Neurology`)
   - `primary_objective`: `Text`
   - `secondary_objectives`: `Text`
-  - `risk_score`: `Float` (0–100, computed by Operational Risk Engine)
+  - `risk_score`: `Float` (0-100, computed by Operational Risk Engine)
   - `risk_level`: `Enum(RiskLevel)` (`HEALTHY`, `WATCH`, `AT_RISK`, `CRITICAL`)
 
 ### 2.3 Sites & Investigators

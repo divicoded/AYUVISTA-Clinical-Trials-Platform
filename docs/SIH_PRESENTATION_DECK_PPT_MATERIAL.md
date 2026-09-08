@@ -1,4 +1,4 @@
-# AYUVISTA — Smart India Hackathon (SIH) Master PPT Presentation Deck
+# AYUVISTA - Smart India Hackathon (SIH) Master PPT Presentation Deck
 ## Complete Slide-by-Slide Presentation Kit for PowerPoint / Google Slides
 
 ---
@@ -34,7 +34,7 @@
 > *"Respected Judges and Evaluators, good morning.  
 > The All India Institute of Ayurveda is leading a global scientific renaissance in traditional medicine. However, today across India, clinical trials worth tens of crores are still coordinated over fragmented Excel spreadsheets, paper forms, and email threads.  
 > This leads to missed 24-hour expedited safety reporting deadlines, delayed CTRI approvals, and international rejection of Ayurvedic data by global regulators like the US FDA and WHO.  
-> We present **AYUVISTA** — an enterprise-grade, GCP-compliant Clinical Trial Management System (CTMS) and Pharmacovigilance platform engineered specifically to make India's Ayurvedic clinical evidence auditable, secure, and internationally recognized."*
+> We present **AYUVISTA** - an enterprise-grade, GCP-compliant Clinical Trial Management System (CTMS) and Pharmacovigilance platform engineered specifically to make India's Ayurvedic clinical evidence auditable, secure, and internationally recognized."*
 
 ---
 
@@ -71,7 +71,7 @@
 
 ---
 
-## SLIDE 3: The Solution — AYUVISTA Ecosystem (Duration: 45 Seconds)
+## SLIDE 3: The Solution - AYUVISTA Ecosystem (Duration: 45 Seconds)
 
 ### Slide Header
 * **Title**: The Solution: AYUVISTA Unified Architecture
@@ -95,13 +95,13 @@
 
 ### Exact Speaker Script (Word-for-Word)
 > *"To solve this, we engineered AYUVISTA.  
-> NEXUS is not just another hospital software — it is an end-to-end Clinical Trial Management System built specifically for the All India Institute of Ayurveda.  
+> NEXUS is not just another hospital software - it is an end-to-end Clinical Trial Management System built specifically for the All India Institute of Ayurveda.  
 > It unites all stakeholders into a single pane of glass: the Director sees the national portfolio; the Principal Investigator tracks recruitment curves; the Clinical Monitor schedules site audits; and the Pharmacovigilance Officer manages adverse events under a live, ticking 24-hour regulatory clock.  
 > Crucially, NEXUS embeds global regulatory standards directly into its database: every clinical record is transformed on-the-fly into CDISC SDTM and HL7 FHIR formats with an immutable, append-only ALCOA+ audit trail."*
 
 ---
 
-## SLIDE 4: Live Demonstration Scenario — Hero Study AYU-003 (Duration: 60 Seconds)
+## SLIDE 4: Live Demonstration Scenario - Hero Study AYU-003 (Duration: 60 Seconds)
 
 ### Slide Header
 * **Title**: Live Operational Scenario: Hero Study AYU-003
@@ -114,7 +114,7 @@
   4. 1-Click CDISC SDTM download.
 
 ### Key Bullet Points on Slide
-* **Study**: Phase III Multicenter Trial — Classical Formulation (Guduchi-Pippali) in Post-Viral Fatigue.
+* **Study**: Phase III Multicenter Trial - Classical Formulation (Guduchi-Pippali) in Post-Viral Fatigue.
 * **Operational Challenge Detected**:
   * Portfolio Risk Score: **78.5 / 100 (HIGH RISK)**.
   * Recruitment Lag: $105$ enrolled vs $190$ target ($-44.7\%$ lag).
@@ -127,7 +127,7 @@
 
 ### Exact Speaker Script (Word-for-Word)
 > *"Let us see how AYUVISTA handles a real-world clinical crisis.  
-> In our live demonstration, we track Hero Study **AYU-003** — a Phase III multicenter trial of Guduchi and Pippali for post-viral fatigue.  
+> In our live demonstration, we track Hero Study **AYU-003** - a Phase III multicenter trial of Guduchi and Pippali for post-viral fatigue.  
 > The system's algorithmic risk engine immediately flags this study in red with a risk score of 78.5 out of 100. Why?  
 > First, recruitment is lagging by 44 percent. Second, the Bengaluru clinical site has 14 open queries and an overdue CRA monitoring visit. Third, and most critically, a participant has experienced an acute transaminitis spike, triggering a live 24-hour countdown clock.  
 > With NEXUS, the investigator doesn't search through emails. In just three clicks, the CRA schedules an on-site audit, the safety officer assigns the MedDRA code, and the entire audit event is permanently logged with cryptographic timestamps."*
@@ -191,7 +191,7 @@
 ### Exact Speaker Script (Word-for-Word)
 > *"A key question judges always ask is: 'How does this integrate with global healthcare systems?'  
 > NEXUS was built from day one around international data standards.  
-> With a single click, our engine exports complete CDISC SDTM packages — Demographics, Adverse Events, Disposition, and Subject Visits — alongside Define-XML 2.0. Large pharmaceutical companies spend millions of dollars on proprietary software like Veeva or Medidata to achieve this; we built it natively into our open architecture.  
+> With a single click, our engine exports complete CDISC SDTM packages - Demographics, Adverse Events, Disposition, and Subject Visits - alongside Define-XML 2.0. Large pharmaceutical companies spend millions of dollars on proprietary software like Veeva or Medidata to achieve this; we built it natively into our open architecture.  
 > In addition, our live HL7 FHIR R4 endpoints and ABDM sandbox adapters ensure seamless interoperability with the Ayushman Bharat Digital Mission and hospital EHRs across India."*
 
 ---
@@ -245,7 +245,7 @@
 ### Exact Speaker Script (Word-for-Word)
 > *"Technically, the system is engineered for speed, security, and scalability.  
 > The backend is powered by FastAPI and Python 3.12, utilizing Pydantic v2 schemas for strict data validation and an asynchronous SQLAlchemy ORM layer.  
-> The frontend is built on React 18 and TypeScript using the Material Design 3 Expressive design language. It is fast, fully responsive, and features instant role switching across eight distinct clinical roles — from Principal Investigator to Regulatory Auditor.  
+> The frontend is built on React 18 and TypeScript using the Material Design 3 Expressive design language. It is fast, fully responsive, and features instant role switching across eight distinct clinical roles - from Principal Investigator to Regulatory Auditor.  
 > Both backend automated test suites and strict TypeScript production builds pass with 100% clean exit codes."*
 
 ---
@@ -257,9 +257,9 @@
 
 ### Visuals / Layout
 * 3-Phase Timeline:
-  * **Phase 1 (Hackathon MVP — Complete)**: Core 10-module platform, 25 studies, 40 sites, 1520 participants, CDISC exporters.
-  * **Phase 2 (AIIA Campus Pilot — Months 1–3)**: Deployment on AIIA private cloud, integration with hospital Hospital Information System (HIS).
-  * **Phase 3 (National Ayush Grid — Months 4–6)**: Scale across National Institute of Ayurveda (NIA Jaipur), IPGTRA Jamnagar, and all 5 NPvCC regional centers.
+  * **Phase 1 (Hackathon MVP - Complete)**: Core 10-module platform, 25 studies, 40 sites, 1520 participants, CDISC exporters.
+  * **Phase 2 (AIIA Campus Pilot - Months 1-3)**: Deployment on AIIA private cloud, integration with hospital Hospital Information System (HIS).
+  * **Phase 3 (National Ayush Grid - Months 4-6)**: Scale across National Institute of Ayurveda (NIA Jaipur), IPGTRA Jamnagar, and all 5 NPvCC regional centers.
 
 ### Key Bullet Points on Slide
 * **Operational Impact**:
@@ -274,7 +274,7 @@
 > *"Our vision extends beyond this hackathon.  
 > In Phase 1, our MVP is fully verified and functional today.  
 > In Phase 2, we will pilot AYUVISTA across AIIA's internal hospital wards and outpatient clinics in New Delhi.  
-> In Phase 3, we plan to scale AYUVISTA across the National Ayush Grid — connecting apex institutes like NIA Jaipur and IPGTRA Jamnagar into a unified national pharmacovigilance network.  
+> In Phase 3, we plan to scale AYUVISTA across the National Ayush Grid - connecting apex institutes like NIA Jaipur and IPGTRA Jamnagar into a unified national pharmacovigilance network.  
 > This platform will reduce regulatory approval cycles by 65%, guarantee 100% statutory safety compliance, and provide the world-class clinical evidence needed to make Indian traditional medicine globally accepted."*
 
 ---
@@ -344,7 +344,7 @@
 ## SLIDE 11: Conclusion & Q&A Invitation (Duration: 15 Seconds)
 
 ### Slide Header
-* **Title**: AYUVISTA — Transforming Ayush Research Into Global Science
+* **Title**: AYUVISTA - Transforming Ayush Research Into Global Science
 * **Call to Action**: "Thank you, Respected Judges. We are now open for your questions and live demonstration."
 * **Team Contact & GitHub Repository Information**
 

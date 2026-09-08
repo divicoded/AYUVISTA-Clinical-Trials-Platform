@@ -1,4 +1,4 @@
-﻿# AYUVISTA — COMPLETE MASTER DOCUMENTATION & SYSTEM SPECIFICATION
+﻿# AYUVISTA - COMPLETE MASTER DOCUMENTATION & SYSTEM SPECIFICATION
 
 > **System Designation**: AYUVISTA Clinical Research Operations & Pharmacovigilance Platform  
 > **Institutional Anchor**: All India Institute of Ayurveda (AIIA), Ministry of Ayush, Government of India  
@@ -73,7 +73,7 @@ The relational model consists of 12 normalized clinical domain tables and 1 appe
 ### Table Dictionary & Primary Fields
 
 1. **`users`**: User identity, email, hashed password, role enum, department, last login timestamp.
-2. **`studies`**: `study_code` (e.g. `AYU-003`), title, phase, lifecycle stage enum, target enrollment, current enrollment, composite risk score ($0–100$), therapeutic area, protocol version.
+2. **`studies`**: `study_code` (e.g. `AYU-003`), title, phase, lifecycle stage enum, target enrollment, current enrollment, composite risk score ($0-100$), therapeutic area, protocol version.
 3. **`sites`**: `site_code`, institutional name, city, state, active status, monitoring status enum.
 4. **`study_sites`**: Associative table linking studies to sites with site-specific enrollment targets.
 5. **`participants`**: Synthetic de-identified token (`SYN-Pxxxxx`), treatment arm, age, gender, randomization status, consent status.

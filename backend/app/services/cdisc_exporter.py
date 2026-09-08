@@ -125,7 +125,7 @@ class CDISCExportEngine:
 
     @staticmethod
     def generate_sdtm_ds_csv(db: Session, study_id: str) -> str:
-        """SDTM Disposition (DS) domain export — one record per disposition event per subject"""
+        """SDTM Disposition (DS) domain export - one record per disposition event per subject"""
         study = db.query(Study).filter(Study.id == study_id).first()
         study_code = study.study_code if study else "STUDY"
         participants = db.query(Participant).filter(Participant.study_id == study_id).all()

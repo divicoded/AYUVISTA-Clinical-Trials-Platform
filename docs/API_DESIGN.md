@@ -1,4 +1,4 @@
-﻿# AYUVISTA — RESTful API Design Specification
+﻿# AYUVISTA - RESTful API Design Specification
 
 ## 1. API Architecture Conventions
 - Base Path: `/api/v1`

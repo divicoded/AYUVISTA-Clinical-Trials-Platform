@@ -1,7 +1,7 @@
-﻿# AYUVISTA — COMPLETE BEGINNER'S GUIDE & MASTER HANDBOOK
+﻿# AYUVISTA - COMPLETE BEGINNER'S GUIDE & MASTER HANDBOOK
 
 > **Welcome to AYUVISTA!**  
-> If you have never built a healthcare application, never used clinical trial software, or don't know what acronyms like GCP, CTRI, CDISC, or MedDRA mean — **this guide is for you**.  
+> If you have never built a healthcare application, never used clinical trial software, or don't know what acronyms like GCP, CTRI, CDISC, or MedDRA mean - **this guide is for you**.  
 > Everything is explained in clear, simple language from first principles to the most advanced technical details.
 
 ---
@@ -13,7 +13,7 @@ The **All India Institute of Ayurveda (AIIA)** in New Delhi is India's apex nati
 Furthermore, AIIA serves as the **National Pharmacovigilance Coordination Centre (NPvCC)** for all ASU&H (Ayurveda, Siddha, Unani & Homoeopathy) drugs across India.
 
 Currently, clinical trials in India are governed by strict legal rules:
-1. **Mandatory CTRI Registration**: Every trial must be prospectively registered on the Clinical Trials Registry – India (`ctri.nic.in`) before enrolling its first participant.
+1. **Mandatory CTRI Registration**: Every trial must be prospectively registered on the Clinical Trials Registry - India (`ctri.nic.in`) before enrolling its first participant.
 2. **Strict Safety Timelines**: If a patient experiences a Serious Adverse Event (SAE) (e.g., hospitalization or severe reaction), the law mandates expedited reporting within **24 hours** to the licensing authority and Ethics Committee.
 3. **Data Integrity (ALCOA+)**: No clinical records may be altered, erased, or faked. Every single mouse click, edits, and timestamp must be permanently recorded.
 4. **Digital Personal Data Protection (DPDP Act 2023)**: Patient identities must be de-identified and protected.
@@ -32,9 +32,9 @@ Currently, clinical trials in India are governed by strict legal rules:
 | **CTMS** | Clinical Trial Management System | An "Operating System" for clinical trials (like Salesforce, but for medical researchers). |
 | **GCP** | Good Clinical Practice | An international ethical and quality standard that clinical trials must follow. |
 | **NPvCC** | National Pharmacovigilance Coordination Centre | India's safety watchtower for Ayurvedic medicines, hosted right inside AIIA. |
-| **CTRI** | Clinical Trials Registry – India | The government website where every trial must be publicly registered. |
+| **CTRI** | Clinical Trials Registry - India | The government website where every trial must be publicly registered. |
 | **IEC** | Institutional Ethics Committee | The board of doctors and legal experts that approves a trial before humans can be enrolled. |
-| **AE vs SAE** | Adverse Event vs Serious Adverse Event | **AE**: A minor side effect (e.g., mild nausea). <br>**SAE**: A dangerous reaction requiring hospitalization or death — triggers a legal **24-hour reporting clock**. |
+| **AE vs SAE** | Adverse Event vs Serious Adverse Event | **AE**: A minor side effect (e.g., mild nausea). <br>**SAE**: A dangerous reaction requiring hospitalization or death - triggers a legal **24-hour reporting clock**. |
 | **MedDRA** | Medical Dictionary for Regulatory Activities | A global standard dictionary of medical terms so a doctor in Delhi and a doctor in Tokyo use the exact same code for "Urticaria" or "Skin Rash". |
 | **CDISC** | Clinical Data Interchange Standards Consortium | The global gold-standard format for packaging trial data when submitting to US FDA or India's CDSCO. |
 | **SDTM** | Study Data Tabulation Model | Standardized CSV tables (e.g., `DM` for Demographics, `AE` for Adverse Events). |
@@ -153,10 +153,10 @@ The system is built as a **Modular Monolith** using modern, rock-solid technolog
 * **Purpose**: Generates submission-ready dataset packages for drug authorities (CDSCO, US FDA).
 * **Key Features**:
   * **SDTM Domain CSVs**:
-    * `DM.csv` (Demographics — 1 row per subject)
-    * `AE.csv` (Adverse Events — coded to MedDRA)
-    * `DS.csv` (Disposition — protocol milestones and completion)
-    * `SV.csv` (Subject Visits — tracking protocol visit dates)
+    * `DM.csv` (Demographics - 1 row per subject)
+    * `AE.csv` (Adverse Events - coded to MedDRA)
+    * `DS.csv` (Disposition - protocol milestones and completion)
+    * `SV.csv` (Subject Visits - tracking protocol visit dates)
   * **ADaM Dataset**: `ADSL.csv` (Subject-Level Analysis Dataset with safety population flags `SAFFL`, `ITTFL`).
   * **Define-XML v2.0**: Machine-readable XML specification with inline preview and direct download.
 
@@ -173,60 +173,60 @@ The system is built as a **Modular Monolith** using modern, rock-solid technolog
 All backend endpoints are prefixed with `/api/v1` and documented interactively at `http://localhost:8000/docs`.
 
 ### Authentication & RBAC (`/api/v1/auth`)
-* `POST /login` — Authenticate using email and password, returns JWT token.
-* `GET /me` — Returns current logged-in user profile.
-* `POST /switch-role` — Instant role switcher for hackathon demonstration.
+* `POST /login` - Authenticate using email and password, returns JWT token.
+* `GET /me` - Returns current logged-in user profile.
+* `POST /switch-role` - Instant role switcher for hackathon demonstration.
 
 ### Command Center & Analytics (`/api/v1/command-center`)
-* `GET /metrics` — High-level KPI metrics (active studies, enrolled participants, open queries, SAE count).
-* `GET /health-matrix` — Multi-vector risk assessment for all studies.
-* `GET /recruitment-trend` — Cumulative planned vs actual enrollment trajectory data points.
+* `GET /metrics` - High-level KPI metrics (active studies, enrolled participants, open queries, SAE count).
+* `GET /health-matrix` - Multi-vector risk assessment for all studies.
+* `GET /recruitment-trend` - Cumulative planned vs actual enrollment trajectory data points.
 
 ### Clinical Studies (`/api/v1/studies`)
-* `GET /` — List all clinical studies with search and phase filters.
-* `GET /{study_id_or_code}` — Get deep study dossier by ID or code (e.g., `AYU-003`).
-* `POST /{study_id}/transition` — Transition study lifecycle stage with mandatory reason.
-* `GET /{study_id}/recruitment-curve` — Get monthly planned vs actual enrollment for that study.
+* `GET /` - List all clinical studies with search and phase filters.
+* `GET /{study_id_or_code}` - Get deep study dossier by ID or code (e.g., `AYU-003`).
+* `POST /{study_id}/transition` - Transition study lifecycle stage with mandatory reason.
+* `GET /{study_id}/recruitment-curve` - Get monthly planned vs actual enrollment for that study.
 
 ### Site Network (`/api/v1/sites`)
-* `GET /` — List all 40 hospital trial sites with performance KPIs.
-* `GET /{site_id}` — Get single site details.
+* `GET /` - List all 40 hospital trial sites with performance KPIs.
+* `GET /{site_id}` - Get single site details.
 
 ### Participants & Visits (`/api/v1/participants`)
-* `GET /` — List synthetic participants with pagination.
-* `GET /{participant_id}/visits` — Get all protocol visits for a participant.
-* `PUT /visits/{visit_id}/complete` — Mark a visit completed with actual date and notes.
+* `GET /` - List synthetic participants with pagination.
+* `GET /{participant_id}/visits` - Get all protocol visits for a participant.
+* `PUT /visits/{visit_id}/complete` - Mark a visit completed with actual date and notes.
 
 ### Data Queries (`/api/v1/queries`)
-* `GET /` — List queries with optional filters.
-* `GET /summary` — Aggregate query statistics.
-* `PUT /{query_id}/answer` — Investigator submits discrepancy resolution.
-* `PUT /{query_id}/close` — CRA or Data Manager verifies and closes query.
+* `GET /` - List queries with optional filters.
+* `GET /summary` - Aggregate query statistics.
+* `PUT /{query_id}/answer` - Investigator submits discrepancy resolution.
+* `PUT /{query_id}/close` - CRA or Data Manager verifies and closes query.
 
 ### Pharmacovigilance & Safety (`/api/v1/safety`)
-* `GET /cases` — List all AE and SAE cases.
-* `GET /cases/{case_id}` — Get full safety dossier.
-* `POST /cases/{case_id}/transition` — Advance case through the 8-stage safety workflow.
-* `GET /signals` — Retrieve disproportionality safety signals.
-* `GET /coding/lookup?q=term` — Search synthetic MedDRA coding dictionary.
+* `GET /cases` - List all AE and SAE cases.
+* `GET /cases/{case_id}` - Get full safety dossier.
+* `POST /cases/{case_id}/transition` - Advance case through the 8-stage safety workflow.
+* `GET /signals` - Retrieve disproportionality safety signals.
+* `GET /coding/lookup?q=term` - Search synthetic MedDRA coding dictionary.
 
 ### Interoperability & Sandbox (`/api/v1/interop`)
-* `GET /status` — Status of EDC, HIS, and ABDM sandbox connectors.
-* `GET /fhir/{resource_type}/{entity_id}` — Return HL7 FHIR R4 JSON representation.
-* `POST /edc/sync` — Trigger simulated EDC sync.
-* `POST /abdm/demo-flow` — Execute simulated ABDM consent workflow.
+* `GET /status` - Status of EDC, HIS, and ABDM sandbox connectors.
+* `GET /fhir/{resource_type}/{entity_id}` - Return HL7 FHIR R4 JSON representation.
+* `POST /edc/sync` - Trigger simulated EDC sync.
+* `POST /abdm/demo-flow` - Execute simulated ABDM consent workflow.
 
 ### CDISC Exports (`/api/v1/exports`)
-* `GET /cdisc/{study_id}/dm` — Download SDTM Demographics (`DM.csv`).
-* `GET /cdisc/{study_id}/ae` — Download SDTM Adverse Events (`AE.csv`).
-* `GET /cdisc/{study_id}/ds` — Download SDTM Disposition (`DS.csv`).
-* `GET /cdisc/{study_id}/sv` — Download SDTM Subject Visits (`SV.csv`).
-* `GET /cdisc/{study_id}/adam` — Download ADaM Subject-Level Analysis (`ADSL.csv`).
-* `GET /cdisc/{study_id}/define-xml` — Download Define-XML 2.0 (`Define_XML.xml`).
+* `GET /cdisc/{study_id}/dm` - Download SDTM Demographics (`DM.csv`).
+* `GET /cdisc/{study_id}/ae` - Download SDTM Adverse Events (`AE.csv`).
+* `GET /cdisc/{study_id}/ds` - Download SDTM Disposition (`DS.csv`).
+* `GET /cdisc/{study_id}/sv` - Download SDTM Subject Visits (`SV.csv`).
+* `GET /cdisc/{study_id}/adam` - Download ADaM Subject-Level Analysis (`ADSL.csv`).
+* `GET /cdisc/{study_id}/define-xml` - Download Define-XML 2.0 (`Define_XML.xml`).
 
 ### Audit Trail (`/api/v1/audit`)
-* `GET /` — Query immutable audit events with actor and entity filters.
-* `GET /entity/{entity_type}/{entity_id}` — Retrieve full historical timeline of a record.
+* `GET /` - Query immutable audit events with actor and entity filters.
+* `GET /entity/{entity_type}/{entity_id}` - Retrieve full historical timeline of a record.
 
 ---
 
@@ -244,14 +244,14 @@ d:\Project\AIIA\run.ps1
 ```
 
 ### Manual Start
-**Terminal 1 — Backend**:
+**Terminal 1 - Backend**:
 ```powershell
 cd d:\Project\AIIA\backend
 & "$env:LOCALAPPDATA\Programs\Python\Python312\python.exe" -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
 ```
 *API will run at:* `http://localhost:8000` (Swagger UI at `http://localhost:8000/docs`)
 
-**Terminal 2 — Frontend**:
+**Terminal 2 - Frontend**:
 ```powershell
 cd d:\Project\AIIA\frontend
 npm.cmd run dev

@@ -1,4 +1,4 @@
-﻿# AYUVISTA — GitHub, Docker & Cloud Deployment Master Guide
+# AYUVISTA - GitHub, Docker & Cloud Deployment Master Guide
 ## Everything You Need to Know for Your Smart India Hackathon (SIH) Submission
 
 > **Summary**:  
@@ -118,14 +118,15 @@ We will update your root `README.md` to include:
   4. *2:00 - 2:30*: Show the 1-click CDISC SDTM download and ALCOA+ audit trail.
   5. *2:30 - 3:00*: Conclude with the national impact for the Ministry of Ayush.
 
-### 3. Optional Free Cloud Hosting (For Judges to Test on Mobile)
-If you want judges to open a live link on their phone or tablet during the presentation:
-* **Frontend**: You can deploy `frontend/dist` on **Vercel** or **Netlify** for free in 2 minutes.
-* **Backend**: You can deploy the FastAPI backend on **Render.com** or **Railway.app** for free.
-* *(Note: Running locally on `localhost:5173` during the live hackathon pitch is standard practice and completely acceptable).*
+### 3. Live Cloud Hosting (Judges Can Test on Any Phone or Laptop)
+The platform is fully hosted and accessible worldwide:
+* **Frontend SPA (Vercel)**: **[https://ayuvista-ctms.vercel.app](https://ayuvista-ctms.vercel.app)**
+* **Backend API (Render)**: **[https://ayuvista-backend.onrender.com](https://ayuvista-backend.onrender.com)** (Interactive docs at `/docs`)
+* **GitHub Repository**: **[https://github.com/divicoded/AYUVISTA-Clinical-Trials-Platform](https://github.com/divicoded/AYUVISTA-Clinical-Trials-Platform)**
+* **Automatic Standalone Engine**: If the cloud backend is sleeping or offline, the frontend automatically falls back to its built-in client-side mock engine (`mockData.ts`), guaranteeing zero 405/network errors.
 
 ### 4. Repository Structure Checklist
-Your repository now contains:
+Your repository contains:
 ```
 AYUVISTA/
 ├── backend/
@@ -134,22 +135,27 @@ AYUVISTA/
 │   ├── Dockerfile           # Backend container definition
 │   └── requirements.txt     # Python dependencies
 ├── frontend/
-│   ├── src/                 # React components, pages, context, types
+│   ├── src/                 # React components, pages, context, mockData
 │   ├── Dockerfile           # Multi-stage Node/Nginx container definition
 │   ├── nginx.conf           # Reverse proxy configuration
+│   ├── vercel.json          # Vercel SPA routing configuration
 │   └── package.json         # Node dependencies
 ├── docs/
-│   ├── SIH_PRESENTATION_DECK_PPT_MATERIAL.md  # Master slide-by-slide pitch kit
-│   ├── SIH_BEGINNER_PRESENTATION_MANUAL.md    # Zero-to-hero pitch manual & Q&A
-│   ├── GITHUB_AND_DOCKER_DEPLOYMENT_GUIDE.md  # This deployment guide
-│   ├── PRODUCT_ARCHITECTURE.md                # System technical design
-│   ├── API_DESIGN.md                          # Endpoint specification
-│   ├── DATABASE_DESIGN.md                     # Schema and ERD documentation
-│   └── DEMO_SCENARIO.md                       # Hero study AYU-003 scenario
+│   ├── SIH_OFFICIAL_TEMPLATE_PPT_INFOGRAPHICS.md # Official SIH 8-Slide template & infographics
+│   ├── SIH_PRESENTATION_DECK_PPT_MATERIAL.md     # Master 11-slide pitch deck kit
+│   ├── SIH_BEGINNER_PRESENTATION_MANUAL.md       # Zero-to-hero pitch manual & Q&A
+│   ├── GITHUB_AND_DOCKER_DEPLOYMENT_GUIDE.md     # This deployment guide
+│   ├── PRODUCT_ARCHITECTURE.md                   # System technical design
+│   ├── API_DESIGN.md                             # Endpoint specification
+│   ├── DATABASE_DESIGN.md                        # Schema and ERD documentation
+│   └── DEMO_SCENARIO.md                          # Hero study AYU-003 scenario
 ├── .gitignore               # Clean repository filter
 ├── docker-compose.yml       # 1-command local orchestration
+├── render.yaml              # 1-click Render.com cloud backend definition
+├── vercel.json              # Root Vercel SPA deployment configuration
 ├── README.md                # Comprehensive project documentation
 ├── run.ps1                  # 1-click PowerShell local launcher
 └── start.bat                # 1-click Windows CMD local launcher
 ```
+
 
