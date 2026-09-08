@@ -141,6 +141,7 @@ AYUVISTA/
 │   ├── vercel.json          # Vercel SPA routing configuration
 │   └── package.json         # Node dependencies
 ├── docs/
+│   ├── COMPLETE_TESTING_AND_QA_MANUAL.md         # Step-by-step 14-suite testing playbook
 │   ├── SIH_OFFICIAL_TEMPLATE_PPT_INFOGRAPHICS.md # Official SIH 8-Slide template & infographics
 │   ├── SIH_PRESENTATION_DECK_PPT_MATERIAL.md     # Master 11-slide pitch deck kit
 │   ├── SIH_BEGINNER_PRESENTATION_MANUAL.md       # Zero-to-hero pitch manual & Q&A

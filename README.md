@@ -28,6 +28,7 @@
 
 | Document | Description |
 | :--- | :--- |
+| 🧪 **[Complete QA & System Testing Manual](./docs/COMPLETE_TESTING_AND_QA_MANUAL.md)** | **Step-by-step verification playbook**: 14 testing suites with exact click steps, pass criteria, and verification sign-off sheet for testers and judges. |
 | 📋 **[Official SIH 8-Slide PPT & Infographics Blueprint](./docs/SIH_OFFICIAL_TEMPLATE_PPT_INFOGRAPHICS.md)** | **Strict official SIH presentation template**: visual card layouts, metric counters, speaker scripts, judge Q&A defense, and Slide 8 Research & References. |
 | 📊 **[SIH Master PPT & Pitch Deck Guide](./docs/SIH_PRESENTATION_DECK_PPT_MATERIAL.md)** | Complete 11-slide presentation deck with comprehensive data points and research citations. |
 | 🎓 **[SIH Beginner's Presentation Manual](./docs/SIH_BEGINNER_PRESENTATION_MANUAL.md)** | Plain-English project narrative, 3-minute live demo sequence, jargon buster, and role breakdown. |
