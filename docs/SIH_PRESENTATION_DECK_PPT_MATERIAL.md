@@ -157,7 +157,7 @@
   * Real-time algorithm computing Relative Risk ($RR$) and Observed vs. Expected adverse event ratios across all ASU&H formulations.
 
 ### Exact Speaker Script (Word-for-Word)
-> *"Because AIIA hosts the National Pharmacovigilance Coordination Centre, safety surveillance is the crown jewel of NEXUS.  
+> *"Because AIIA hosts the National Pharmacovigilance Coordination Centre, safety surveillance is the crown jewel of AYUVISTA.  
 > Look at our Pharmacovigilance module: the 24-hour clock is not a static timer; it is linked to statutory compliance.  
 > Furthermore, the workflow is strictly gated. A user cannot jump from reporting to submission. At Step 4, the MedDRA gate forces standardized coding using international medical terms. At Step 5, the WHO-UMC causality picker requires doctors to establish drug attribution before filing Form 44 with the regulatory authorities.  
 > If an investigator ever rolls back a case, the system demands an immutable reason, creating an airtight, FDA-ready electronic paper trail."*
